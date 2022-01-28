@@ -54,10 +54,17 @@ console.log("The solution is:", result1)
 
 printTitle("Exercise 3")
 
-function crazyDiff (a, b){
 
+function crazyDiff (c, d){
+    if (c > d){
+        return (c - d)
+    }else {
+        return ((c - d) * 3)
+    }
 }
 
+let result3 = crazyDiff (19, 20)
+console.log(result3)
 
 //function crazyDiff
 
