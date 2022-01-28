@@ -36,16 +36,16 @@ console.log("The area of and rectangle is:", result)
 
 printTitle("Exercise 2")
 
-let result1 = function crazySum(){
-    if (a + b){
-        return crazySum
-    } else if (a + b === a + a){
-        return (a + b * 3)
+function crazySum(a, b){
+    if(a !== b){
+        return (a + b)
+    } else {
+        return ((a + b) * 3)
     }
 }
 
-result1 = crazySum(3, 2)
-console.log(crazySum)
+let result1 = crazySum(3, 3)
+console.log("The solution is:", result1)
 
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
@@ -53,6 +53,11 @@ console.log(crazySum)
 */
 
 printTitle("Exercise 3")
+
+function crazyDiff (a, b){
+
+}
+
 
 //function crazyDiff
 
