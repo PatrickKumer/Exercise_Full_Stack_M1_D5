@@ -55,16 +55,16 @@ console.log("The solution is:", result1)
 printTitle("Exercise 3")
 
 
-function crazyDiff (c, d){
-    if (c > d){
-        return (c - d)
+function crazyDiff (c){
+    if (c > 19){
+        return Math.abs (c - 19) * 3
     }else {
-        return ((c - d) * 3)
+        return Math.abs (c - 19)
     }
 }
 
-let result3 = crazyDiff (19, 20)
-console.log(result3)
+let result3 = crazyDiff (20)
+console.log("The solution is:", result3)
 
 //function crazyDiff
 
@@ -74,7 +74,16 @@ console.log(result3)
 
 printTitle("Exercise 4")
 
-//function boundary (n)
+function boundary (n){
+    if ((n>20 && n<=100) || n===400) {
+        return true
+    } else {
+        return false
+    } 
+}
+
+let number = boundary(23)
+console.log(number)
 
 /* EXERCISE 5
  Write a function called "strivify" which accepts a string as a parameter.
