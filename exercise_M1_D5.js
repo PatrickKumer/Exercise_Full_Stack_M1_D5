@@ -173,6 +173,17 @@ console.log(cuttingString)
 
 printTitle("Exercise 10")
 
+function giveMeRandom(g){
+    const arr = []
+    for (let i = 0; i <= g; i++){
+        arr.push(Math.floor(Math.random() * 10))
+    }
+    return arr
+}
+
+let numbers = giveMeRandom(4)
+console.log(numbers)
+
 /* WHEN YOU ARE FINISHED
  Commit and push the code to your personal GitHub repository; then post the link of your commit on the 
  Homework section of today's Eduflow.
