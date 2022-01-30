@@ -114,6 +114,16 @@ console.log(strivify("is studying"))
 
 printTitle("Exercise 6")
 
+function check3and7(f){
+    if(f >= 0 && (f % 3 === 0 || f % 7 === 0)){
+        return true
+    } else {
+        return false
+    }
+}
+
+let result4 = check3and7(24)
+console.log(result4)
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
