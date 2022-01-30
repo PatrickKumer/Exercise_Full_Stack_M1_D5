@@ -124,11 +124,19 @@ function check3and7(f){
 
 let result4 = check3and7(24)
 console.log(result4)
+
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
 
 printTitle("Exercise 7")
+
+function reverseString (str){
+    return str.split("").reverse("").join("")
+}
+
+let wordReverse = reverseString("Block")
+console.log(wordReverse)
 
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string 
