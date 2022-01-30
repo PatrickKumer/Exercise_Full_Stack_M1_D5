@@ -151,12 +151,20 @@ function upperFirst (word1){
 
 let firstUpperCase = upperFirst("mountain")
 console.log(firstUpperCase)
+
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character 
  of a given string passed as a parameter.
 */
 
 printTitle("Exercise 9")
+
+function cutString (word3) {
+    return word3.slice(1, word3.length - 1)
+}
+
+let cuttingString = cutString("ambient")
+console.log(cuttingString)
 
 /* EXERCISE 10
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers 
