@@ -145,6 +145,12 @@ console.log(wordReverse)
 
 printTitle("Exercise 8")
 
+function upperFirst (word1){
+    return word1.charAt(0).toUpperCase() + word1.slice(1)
+}
+
+let firstUpperCase = upperFirst("mountain")
+console.log(firstUpperCase)
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character 
  of a given string passed as a parameter.
